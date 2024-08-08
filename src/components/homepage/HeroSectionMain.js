@@ -1,6 +1,5 @@
 
 import React, { useEffect, useState } from 'react';
-import { assets } from '../../assets/Assets';
 import '../../Styles/HeroSectionMain.css'
 
 

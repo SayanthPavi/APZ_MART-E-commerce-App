@@ -69,10 +69,10 @@ const FooterView = () => {
                               <li>Kerala, India</li>
                             </ul>
                             <div className="pt-2">
-                            <h6>Social</h6>
-                            {/* <img src= {assets.insta} alt="img" width={22} height={22} className='me-3' /> */}
-                            <img src= {assets.Fb} alt="img" width={22} height={22} className='me-3' />
-                            <img src= {assets.YT} alt="img" width={22} height={22} className='me-3' />
+                            <h6>Social </h6>
+                            <img src= {assets.insta} alt="img" width={25} height={25} className='me-3' />
+                            <img src= {assets.Fb} alt="img" width={25} height={25} className='me-3' />
+                            <img src= {assets.YT} alt="img" width={25} height={25} className='me-3' />
                             </div>
                         </div>
                         <div className="col-md-8 col-lg-7 col-sm-6">

@@ -1,7 +1,7 @@
 import logo from './NavbarFooter/Apz Mart logo.jpg';
-
-import Fb from './NavbarFooter/facebook-brands-solid.svg';
-import YT from './NavbarFooter/youtube-brands-solid.svg';
+import insta from './NavbarFooter/instagram.png';
+import Fb from './NavbarFooter/facebook.png';
+import YT from './NavbarFooter/youtube.png';
 import boatNoise from './/homePage/asset 2.jpeg';
 import BsportsShoe from './homePage/asset 3.jpeg';
 import BHomeKitechen from './homePage/asset 4.jpeg';
@@ -18,6 +18,7 @@ import servicesImg1 from '../assets/About Us/aboutus4.png';
 import servicesImg2 from '../assets/About Us/aboutus5.png';
 import servicesImg3 from '../assets/About Us/aboutus6.png';
 import servicesImg4 from '../assets/About Us/aboutus7.png';
+import emptycart from '../assets/homePage/empty cart.webp';
 
 
 
@@ -27,6 +28,7 @@ import servicesImg4 from '../assets/About Us/aboutus7.png';
 
 export const assets={
     logo,
+    insta,
     Fb,
     YT,
     boatNoise,
@@ -44,6 +46,7 @@ export const assets={
     servicesImg1,
     servicesImg2,
     servicesImg3,
-    servicesImg4
+    servicesImg4,
+    emptycart
 
 }

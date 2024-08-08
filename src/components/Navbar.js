@@ -3,7 +3,7 @@ import '../Styles/Navbar.css'
 import { assets } from '../assets/Assets'
 import { NavLink } from "react-router-dom";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faMagnifyingGlass, faCartShopping, faCircleUser} from '@fortawesome/free-solid-svg-icons';
+import { faCartShopping, faCircleUser} from '@fortawesome/free-solid-svg-icons';
 import { CartContext } from "../context/CartContext"; // Import CartContext
 
 const Navbar = () => {
