@@ -37,3 +37,11 @@
 }
 
 
+@media (min-width:  980px) and (max-width: 1238px) {
+    
+    .search-box{
+        width: 300px;  
+    }
+   
+  }
+

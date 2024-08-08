@@ -1,0 +1,40 @@
+
+.HeroSectionMain-container{
+   height: 360px;
+   
+}
+.HeroSectionMain-box{
+    height: 100%;
+    border-radius: 5px;
+    background-color: #d0d0d0;
+}
+
+.product-box{
+    margin: 0px 15px;
+}
+
+.product-font-size {
+    font-size: 13px;
+    color: #373636;
+    text-align: left;
+    padding-left: 10px;
+    padding-top: 2px;
+}
+
+
+.product-box-img {
+    width: 50%;
+    height: 100%;
+    border: 1px solid #d0d0d0;
+}
+
+
+
+
+
+
+
+
+
+
+

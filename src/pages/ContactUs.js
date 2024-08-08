@@ -33,24 +33,24 @@ const ContactUs = () => {
           <div className="col-7 col-lg-7 col-md-12 col-sm-12 px-4">
             <div className="contact-form ">
               <form>
-              <div className="form-floating mb-4">
-                    <input
-                      type="text"
-                      className="form-control"
-                      id="floatingInput"
-                      placeholder="First Name"
-                    />
-                    <label for="floatingInput">First Name</label>
-                  </div>
-                  <div className="form-floating mb-4">
-                    <input
-                      type="text"
-                      className="form-control"
-                      id="floatingInput"
-                      placeholder="Last Name"
-                    />
-                    <label for="floatingInput">Last Name</label>
-                  </div>
+                <div className="form-floating mb-4">
+                  <input
+                    type="text"
+                    className="form-control"
+                    id="floatingInput"
+                    placeholder="First Name"
+                  />
+                  <label for="floatingInput">First Name</label>
+                </div>
+                <div className="form-floating mb-4">
+                  <input
+                    type="text"
+                    className="form-control"
+                    id="floatingInput"
+                    placeholder="Last Name"
+                  />
+                  <label for="floatingInput">Last Name</label>
+                </div>
 
                 <div>
                   <div className="form-floating mb-4">
@@ -88,8 +88,13 @@ const ContactUs = () => {
                 />
               </form>
 
-              <div className="d-sm-none d-md-block" >
-                <img src={assets.ContactUs} width={900} height={350} alt="img" />
+              <div className="d-sm-none d-md-block">
+                <img
+                  src={assets.ContactUs}
+                  width={900}
+                  height={350}
+                  alt="img"
+                />
               </div>
             </div>
           </div>
@@ -131,15 +136,30 @@ const ContactUs = () => {
               </div>
               <div className="pt-5 ps-5">
                 <h6 className="mb-4">Social </h6>
-                <img src= {assets.X} alt="img" width={40} height={40} className='me-3 bg-dark p-2 rounded-5'/>
-                <img src= {assets.Fb} alt="img" width={40} height={40} className='me-3 bg-dark p-2 rounded-5' />
-                <img src= {assets.YT} alt="img" width={40} height={40} className='me-3 bg-dark p-2 rounded-5' />
+                <img
+                  src={assets.X}
+                  alt="img"
+                  width={40}
+                  height={40}
+                  className="me-3 bg-dark p-2 rounded-5"
+                />
+                <img
+                  src={assets.Fb}
+                  alt="img"
+                  width={40}
+                  height={40}
+                  className="me-3 bg-dark p-2 rounded-5"
+                />
+                <img
+                  src={assets.YT}
+                  alt="img"
+                  width={40}
+                  height={40}
+                  className="me-3 bg-dark p-2 rounded-5"
+                />
               </div>
             </div>
           </div>
-
-
-
         </div>
       </div>
     </>

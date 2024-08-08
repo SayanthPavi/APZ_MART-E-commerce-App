@@ -70,7 +70,7 @@ const FooterView = () => {
                             </ul>
                             <div className="pt-2">
                             <h6>Social</h6>
-                            
+                            {/* <img src= {assets.insta} alt="img" width={22} height={22} className='me-3' /> */}
                             <img src= {assets.Fb} alt="img" width={22} height={22} className='me-3' />
                             <img src= {assets.YT} alt="img" width={22} height={22} className='me-3' />
                             </div>

@@ -1,11 +1,15 @@
-import React from 'react'
+import React, { useContext } from 'react'
 import '../Styles/Navbar.css'
 import { assets } from '../assets/Assets'
 import { NavLink } from "react-router-dom";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faMagnifyingGlass, faCartShopping, faCircleUser} from '@fortawesome/free-solid-svg-icons'
+import { faMagnifyingGlass, faCartShopping, faCircleUser} from '@fortawesome/free-solid-svg-icons';
+import { CartContext } from "../context/CartContext"; // Import CartContext
 
 const Navbar = () => {
+  
+  const { getCartCount } = useContext(CartContext); // Access the cart count
+
   
 
   return (
@@ -45,7 +49,7 @@ const Navbar = () => {
         <NavLink className="nav-NavLink ms-lg-0 ms-md-2  ms-sm-2 position-relative btn btn-outline-secondary me-3 " to={"/ProductCart"}>
         <FontAwesomeIcon icon={faCartShopping} size="lg" style={{color: "#ffffff", marginRight:"3"}} />
         Cart
-        <span className='cart-badge position-absolute top-0 start-25 text-warning '> 0</span>
+        <span className='cart-badge position-absolute top-0 start-25 text-warning '>{getCartCount()}</span>
         </NavLink>
 
         <NavLink className="nav-NavLink ms-lg-0 ms-md-2  ms-sm-2 btn btn-outline-secondary " to={"/Login"}>
@@ -54,12 +58,7 @@ const Navbar = () => {
           Login
         </NavLink>
         </div>
-      <form className="d-flex mb-lg-0 mb-md-3" role="search">
-          <div className="input-group search-box ">
-            <input type="search" placeholder="What're you searching for?"  className="form-control shadow-none border-dark-subtle " />
-            <button id="button-addon1" type="submit" className="btn btn-light "><FontAwesomeIcon icon={faMagnifyingGlass} size="lg" /></button>
-          </div>
-      </form>
+      
     </div>
   </div>
 </nav>

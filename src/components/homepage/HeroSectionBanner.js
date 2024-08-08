@@ -1,5 +1,5 @@
 import React from 'react';
-import './HeroSectionBanner.css'
+import '../../Styles/HeroSectionBanner.css'
 import { assets } from '../../assets/Assets'
 
 const HeroSectionBanner = () => {
